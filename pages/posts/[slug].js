@@ -4,6 +4,7 @@ import Head from "next/head";
 
 export default function SinglePostDetailPage(props) {
 	const { post } = props;
+	
 	return (
 		<>
 			<Head>
@@ -32,7 +33,6 @@ export function getStaticProps(context) {
 
 export function getStaticPaths() {
 	const postFileName = getPostsFiles();
-
 	const slugs = postFileName.map((fileName) => fileName.replace(/\.md$/, ""));
 
 	return {

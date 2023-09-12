@@ -6,7 +6,7 @@ function ContactForm() {
 	const [email, setEmail] = useState("");
 	const [name, setName] = useState("");
 	const [message, setMessage] = useState("");
-	const [status, setStatus] = useState(null); // To track form submission status
+	const [status, setStatus] = useState(null); 
     const [error , setError] = useState(null)
 
     useEffect(() =>{
@@ -41,7 +41,6 @@ function ContactForm() {
 
 			if (response.ok) {
 				setStatus("success");
-				// Clear form fields on successful submission
 				setEmail("");
 				setName("");
 				setMessage("");
