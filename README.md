@@ -1,4 +1,4 @@
-# Nelson's Web Development Blog
+# Tech Corner
 This is a simple web development blog created using React and Next.js. It features a homepage with a hero section and a list of featured blog posts. The blog is designed to showcase articles related to programming and web development.
 
 ## Table of Contents
